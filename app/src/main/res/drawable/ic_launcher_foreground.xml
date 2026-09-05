@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left pillar of the NexVora 'N' -->
+    <path
+        android:pathData="M32,74 L32,38 C32,35.2 34.2,33 37,33 L39,33 C41.8,33 44,35.2 44,38 L44,66 L34.5,75 C33.4,75.3 32,74.8 32,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="33"
+                android:endX="44"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#6366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Diagonal dynamic nexus bridge -->
+    <path
+        android:pathData="M37,33 L45,33 C47,33 48.8,34.1 49.8,35.8 L64,61 L64,48 C64,45.2 66.2,43 69,43 L71,43 C73.8,43 76,45.2 76,48 L76,70 C76,72.8 73.8,75 71,75 L63,75 C61,75 59.2,73.9 58.2,72.2 L44,47 L44,62 C44,64.8 41.8,67 39,67 L37,67 C34.2,67 32,64.8 32,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="33"
+                android:endX="75"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#818CF8" />
+                <item android:offset="0.5" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right pillar of the NexVora 'N' -->
+    <path
+        android:pathData="M64,42 L73.5,33 C74.6,32.7 76,33.2 76,34 L76,70 C76,72.8 73.8,75 71,75 L69,75 C66.2,75 64,72.8 64,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="64"
+                android:startY="33"
+                android:endX="76"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center neural spark / core energy node -->
+    <path
+        android:pathData="M54,49 L56.2,52.8 L60,54 L56.2,55.2 L54,59 L51.8,55.2 L48,54 L51.8,52.8 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Upper neural satellite node -->
+    <path
+        android:pathData="M70,30 L71,32 L73,33 L71,34 L70,36 L69,34 L67,33 L69,32 Z"
+        android:fillColor="#38BDF8" />
+
+</vector>

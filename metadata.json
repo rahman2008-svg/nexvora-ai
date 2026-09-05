@@ -1,0 +1,6 @@
+{
+  "name": "NexVora AI",
+  "description": "Production-ready local-first AI assistant foundation and modern UI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
